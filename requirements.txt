@@ -1,0 +1,4 @@
+Django==3.2
+djangorestframework>=3.8.2,<3.9.0
+django-environ==0.8.1
+flake8>=3.6.0,<3.7.0
