@@ -2,7 +2,10 @@ version: "3.9"
 
 services:
   api:
-    build: .
+    container_name: recipe_api
+    build:
+      context: .
+      dockerfile: Dockerfile
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/app
