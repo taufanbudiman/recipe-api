@@ -130,3 +130,5 @@ dmypy.json
 
 # db data
 /data
+
+.idea
