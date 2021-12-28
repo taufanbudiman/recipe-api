@@ -11,5 +11,8 @@ create_app:
 makemigrations:
 	$(docker_run) "python manage.py makemigrations $(app)"
 
+migrate:
+	$(docker_run) "python manage.py migrate $(app)"
+
 create_superuser:
 	$(docker_run) "python manage.py createsuperuser"
