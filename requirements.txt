@@ -1,5 +1,5 @@
 Django==3.2
-djangorestframework>=3.8.2,<3.9.0
+djangorestframework==3.13.1
 django-environ==0.8.1
 flake8>=3.6.0,<3.7.0
 psycopg2>=2.7.5,<2.8.0
