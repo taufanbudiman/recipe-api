@@ -6,13 +6,13 @@ test:
 	$(docker_run) "python manage.py test && flake8"
 
 create_app:
-	$(docker_run) "python manage.py startapp $(app)"
+	$(docker_run) "python manage.py startapp $(apps)"
 
 makemigrations:
-	$(docker_run) "python manage.py makemigrations $(app)"
+	$(docker_run) "python manage.py makemigrations $(apps)"
 
 migrate:
-	$(docker_run) "python manage.py migrate $(app)"
+	$(docker_run) "python manage.py migrate $(apps)"
 
 create_superuser:
 	$(docker_run) "python manage.py createsuperuser"
