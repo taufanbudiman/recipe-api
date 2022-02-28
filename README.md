@@ -7,7 +7,7 @@
 
 1. Overview
 
-   a simple recipe API with rest api.
+   a simple recipe API with rest api. build with python django.
 
 2. Running Command in Container
 
